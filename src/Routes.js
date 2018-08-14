@@ -7,7 +7,6 @@ export default () => {
     return (
 	<Switch>
 	    <Route exact path="/" component={SearchGithub} />
-	    <Route path="/profile" component={Profile} />
 	</Switch>
     );
 }
